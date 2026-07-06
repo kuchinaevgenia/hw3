@@ -73,3 +73,36 @@ a {
   max-width: 800px;
   margin: 0 auto;
 }
+
+.cards-section {
+  background-color: var(--dark-grey);
+  color: var(--dark-grey);
+  padding: 40px;
+}
+
+.cards-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  gap: 40px;
+}
+
+.card {
+  background-color: white;
+  max-width: 300px;
+  text-align: center;
+}
+
+.card-img {
+  width: 100%;
+}
+
+.card-header {
+  font-size: 1.25rem;
+  padding: 40px 20px 20px;
+}
+
+.card-text {
+  font-size: 1rem;
+  padding: 20px;
+}
