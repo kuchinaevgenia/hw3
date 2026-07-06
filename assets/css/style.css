@@ -21,6 +21,7 @@ a {
 .hero-section {
   padding: 0 20px;
   background-image: url("https://viktoriia-fcodetc.github.io/grid-responsive-hw/imgs/bg.png");
+  background-size: 100%;
   min-height: 60vh;
   color: var(--light-grey);
   text-align: center;
@@ -105,4 +106,20 @@ a {
 .card-text {
   font-size: 1rem;
   padding: 20px;
+}
+
+.digital-section {
+  color: var(--dark-grey);
+  text-align: center;
+  padding: 20px;
+}
+
+.digital-header {
+  font-size: 1.5rem;
+  padding: 20px 0;
+}
+
+.digital-text {
+  font-size: 1rem;
+  padding: 16px 0;
 }
