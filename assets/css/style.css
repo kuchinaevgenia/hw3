@@ -1,0 +1,50 @@
+* {
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 16px;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  line-height: 1.5;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+.hero-section {
+  padding: 0 20px;
+  background-image: url("https://viktoriia-fcodetc.github.io/grid-responsive-hw/imgs/bg.png");
+  min-height: 60vh;
+  color: white;
+    text-align: center;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.hero-header {
+  font-size: 2rem;
+}
+
+.hero-text {
+  font-size: 1rem;
+  padding: 18px 0;
+}
+
+.hero-btn {
+  padding: 16px 32px;
+  background-color: #333333;
+  border: 1px solid #eaeaea;
+}
+
+.hero-btn:hover {
+  background-color: #eaeaea;
+  color: #333333;
+}
