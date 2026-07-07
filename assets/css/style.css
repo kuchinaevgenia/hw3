@@ -96,6 +96,8 @@ a {
 
 .card-img {
   width: 100%;
+  max-width: 300px;
+  min-width: 100px;
 }
 
 .card-header {
@@ -120,6 +122,36 @@ a {
 }
 
 .digital-text {
+  font-size: 1rem;
+  padding: 16px 0;
+}
+
+.about-section {
+  color: #fff;
+
+  display: flex;
+  flex-direction: row;
+  text-align: center;
+}
+
+.contact-container {
+  padding: 32px;
+  background-color: #2690d4;
+  width: 50%;
+}
+
+.about-container {
+  padding: 32px;
+  background-color: var(--dark-grey);
+  width: 50%;
+}
+
+.about-header {
+  font-size: 1.5rem;
+  padding: 24px 0;
+}
+
+.about-text {
   font-size: 1rem;
   padding: 16px 0;
 }
